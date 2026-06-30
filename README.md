@@ -26,7 +26,7 @@ The core models are trained on the public TOM2024 Dataset via Mendeley Data, des
 Follow the steps below to initialize your virtual environment, satisfy dependencies, and run the analytical dashboard locally.
 
 ### Option A: Windows Command Prompt (cmd)
-Bash
+Bash  
 **1. Create the virtual environment**  
 python -m venv xai_env
 
