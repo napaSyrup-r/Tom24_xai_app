@@ -27,48 +27,48 @@ Follow the steps below to initialize your virtual environment, satisfy dependenc
 
 ### Option A: Windows Command Prompt (cmd)
 Bash
-**1. Create the virtual environment**
+**1. Create the virtual environment**  
 python -m venv xai_env
 
-**2. Activate the environment**
+**2. Activate the environment**  
 xai_env\Scripts\activate.bat 
 
-**3. Upgrade package manager**
+**3. Upgrade package manager**  
 pip install --upgrade pip
 
-4. Install explainability framework
+**4. Install explainability framework**  
 pip install grad-cam
 
-# 5. Install comprehensive deep learning, vision, and UI requirements
+**5. Install comprehensive deep learning, vision, and UI requirements**  
 pip install torch torchvision timm lime scikit-image opencv-python Pillow numpy matplotlib streamlit
 
-**6. Pull remaining environment dependencies**
+**6. Pull remaining environment dependencies**  
 pip install -r requirements.txt
 
-**7. Boot the Streamlit application**
+**7. Boot the Streamlit application**  
 streamlit run app.py
 
 ### Option B: Git Bash (Windows) / macOS / Linux
-Bash
-**1. Create the virtual environment**
+Bash  
+**1. Create the virtual environment**  
 py -m venv xai_env
 
-**2. Activate the environment**
+**2. Activate the environment**  
 source xai_env/Scripts/activate
 
-**3. Upgrade package manager**
+**3. Upgrade package manager**  
 py -m pip install --upgrade pip
 
-**4. Install explainability framework**
+**4. Install explainability framework**  
 py -m pip install grad-cam
 
-**5. Install comprehensive deep learning, vision, and UI requirements**
+**5. Install comprehensive deep learning, vision, and UI requirements**  
 py -m pip install torch torchvision timm lime scikit-image opencv-python Pillow numpy matplotlib streamlit
 
-**6. Pull remaining environment dependencies**
+**6. Pull remaining environment dependencies**  
 py -m pip install -r requirements.txt
 
-**7. Boot the Streamlit application**
+**7. Boot the Streamlit application**  
 py -m streamlit run app.py
 
 ## 🧠 Automated Weight Management
