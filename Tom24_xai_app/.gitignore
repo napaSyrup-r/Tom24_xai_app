@@ -1,0 +1,6 @@
+# Ignore the virtual environment completely
+xai_env/
+venv/
+
+# Ignore all large PyTorch weight files
+*.pth
